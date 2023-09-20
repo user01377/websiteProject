@@ -1,6 +1,8 @@
 body {
   font-family: monospace;
-  display: block;
+  display: flex;
+  flex-wrap: wrap;
+  flex-basis: 100%;
 }
 
 .header {
@@ -36,12 +38,16 @@ body {
 
 
 .centerText img {
-  float: right;
-  padding: 0 5em 10em 0;
+  padding-left: 350px;
 }
 
 .middle {
-  display: block;
   height: 500px;
   background-color: #ffcccb;
+   width: 100%;
+}
+
+.middle h1 {
+  text-align: center;
+  padding-top: 20px;
 }
