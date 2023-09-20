@@ -1,6 +1,6 @@
 body {
   font-family: monospace;
-  display: flex;
+  display: block;
 }
 
 .header {
@@ -26,6 +26,22 @@ body {
   margin-right: 10px;
 }
 
-.menuText {
-  margin: 50px 1.5em;
+.centerText {
+  margin: 50px 0 0 3em;
+}
+
+.centerText p,h1 {
+  margin: 0 0 5px 0;
+}
+
+
+.centerText img {
+  float: right;
+  padding: 0 5em 10em 0;
+}
+
+.middle {
+  display: block;
+  height: 500px;
+  background-color: #ffcccb;
 }
