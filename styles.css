@@ -1,47 +1,26 @@
-body {
-  font-family: monospace;
-  display: block;
-}
-
-.header {
-  background-color: #ffafed;
-  height: 200px;
-  width: 100%;
-}
-
-#link1, #link2, #link3 {
-  margin: 0;
-  float: right;
-}
-
-#link1 {
-  margin-right: 20px;
-}
-
-#link2 {
-  margin-right: 10px;
-}
-
-#link3 {
-  margin-right: 10px;
-}
-
-.centerText {
-  margin: 50px 0 0 3em;
-}
-
-.centerText p,h1 {
-  margin: 0 0 5px 0;
-}
-
-
-.centerText img {
-  float: right;
-  padding: 0 5em 10em 0;
-}
-
-.middle {
-  display: block;
-  height: 500px;
-  background-color: #ffcccb;
-}
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Project Website</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    
+      <div class="header">
+        <p id="link1"><a href="">link one</a></p>
+        <p id="link2"><a href="">link two</a></p>
+        <p id="link3"><a href="">link three</a></p>
+        <img src="" alt="coffee icon">
+        
+        <div class="centerText">
+          <h1>Here is our menu!</h1>
+          <p>Our full menu can be found <a href="">here!</a></p>
+          <img src="" alt="cafe menu">
+        </div>
+      </div>
+      
+      <div class="middle">
+        <h1>We are hiring!</h1>
+      </div>
+  </body>
+</html>
