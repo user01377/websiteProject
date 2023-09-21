@@ -41,13 +41,26 @@ body {
   padding-left: 350px;
 }
 
+
+.centerText button {
+  background-color: #ffccbb;
+  border: none;
+  width: 110px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
 .middle {
   height: 500px;
   background-color: #ffcccb;
    width: 100%;
 }
 
-.middle h1 {
+.middle h1,h3 {
   text-align: center;
   padding-top: 20px;
+}
+
+.middle img {
+  
 }
