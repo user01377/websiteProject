@@ -1,6 +1,9 @@
 body {
   font-family: monospace;
-  display: block;
+  display: flex;
+  flex-wrap: wrap;
+  flex-basis: 100%;
+  width: 100%;
 }
 
 .header {
@@ -12,6 +15,7 @@ body {
 #link1, #link2, #link3 {
   margin: 0;
   float: right;
+  flex-direction: row-reverse;
 }
 
 #link1 {
@@ -36,12 +40,87 @@ body {
 
 
 .centerText img {
-  float: right;
-  padding: 0 5em 10em 0;
+  padding-left: 350px;
+}
+
+
+.centerText button {
+  background-color: #ffccbb;
+  border: 1px solid;
+  width: 110px;
+  padding: 10px;
+  border-radius: 10px;
+  border-color: #ff66cc;
 }
 
 .middle {
-  display: block;
   height: 500px;
-  background-color: #ffcccb;
+  background-color: #FFB6C1;
+  width: 100%;
+}
+
+.middle h1 {
+  text-align: center;
+  padding-top: 20px;
+  font-size: 35px;
+}
+
+.middle h3 {
+  text-align: center;
+  font-size: 20px;
+}
+
+.middle img {
+  
+}
+
+.quote {
+  background-color: #FFCCCB;
+  font-size: 25px;
+  text-align: center;
+  padding-top: 20px;
+}
+
+
+.quote #sig {
+  float: right;
+  margin-right: 20px;
+  padding: 0 5px 10px 0;
+}
+
+.orderAd {
+  background-color: #F26B8A;
+  width: 100%;
+  height: 200px;
+}
+
+.textCont {
+  margin: auto;
+  text-align: center;
+  background-color: #fbffc0;
+  margin-top: 50px;
+  border-radius: 20px;
+  width: 90%;
+  justify-content: right;
+  height: 80px;
+}
+
+.orderAd button {
+  margin: center;
+  float: right;
+  margin: 0px 25px 25px 0px;
+  background-color: #ffccbb;
+  border: 1px solid;
+  border-color: #ff66cc;
+  width: 110px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+
+.footer {
+  background-color: #ffafed;
+  text-align: center;
+  font-size: 15px;
+  width: 100%;
 }
