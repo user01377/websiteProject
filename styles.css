@@ -3,6 +3,7 @@ body {
   display: flex;
   flex-wrap: wrap;
   flex-basis: 100%;
+  width: 100%;
 }
 
 .header {
@@ -14,6 +15,7 @@ body {
 #link1, #link2, #link3 {
   margin: 0;
   float: right;
+  flex-direction: row-reverse;
 }
 
 #link1 {
@@ -44,10 +46,11 @@ body {
 
 .centerText button {
   background-color: #ffccbb;
-  border: none;
+  border: 1px solid;
   width: 110px;
   padding: 10px;
   border-radius: 10px;
+  border-color: #ff66cc;
 }
 
 .middle {
@@ -83,4 +86,41 @@ body {
   float: right;
   margin-right: 20px;
   padding: 0 5px 10px 0;
+}
+
+.orderAd {
+  background-color: #F26B8A;
+  width: 100%;
+  height: 200px;
+}
+
+.textCont {
+  margin: auto;
+  text-align: center;
+  background-color: #fbffc0;
+  margin-top: 50px;
+  border-radius: 20px;
+  width: 90%;
+  justify-content: right;
+  height: 80px;
+}
+
+.orderAd button {
+  margin: center;
+  float: right;
+  margin: 0px 25px 25px 0px;
+  background-color: #ffccbb;
+  border: 1px solid;
+  border-color: #ff66cc;
+  width: 110px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+
+.footer {
+  background-color: #ffafed;
+  text-align: center;
+  font-size: 15px;
+  width: 100%;
 }
